@@ -1,0 +1,13 @@
+public class Producto {
+    private String nombre;
+    private double precio;
+    private String categoria;
+    public Producto(String nombre, double precio, String categoria) {
+        this.nombre = nombre;
+        this.precio = precio;
+        this.categoria = categoria;
+    }
+    public String mostrarInformacion() {
+        return "Nombre: " + nombre + "\nPrecio: $" + precio + "\nCategoria: " + categoria;
+    }
+}
